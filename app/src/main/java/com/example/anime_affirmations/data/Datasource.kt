@@ -6,7 +6,7 @@ import com.example.anime_affirmations.model.Anime_Affirmations
 class Datasource {
 
     fun loadAffirmations():List<Anime_Affirmations>{
-        return listOf<Anime_Affirmations>(
+        return listOf(
             Anime_Affirmations(R.string.affirmations1, R.drawable.image1),
             Anime_Affirmations(R.string.affirmations2, R.drawable.image2),
             Anime_Affirmations(R.string.affirmations3, R.drawable.image3),
